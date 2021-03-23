@@ -7,11 +7,6 @@ body {
     color: white;
   }
 
-.fit {
-    max-width: 99%;
-    max-height: 99%;
-}
-
 h1 {
     margin-top: 2vw;
     font-size: 3vw;
@@ -19,13 +14,15 @@ h1 {
 
 p {
     font-size: 1.3vw;
-    margin-top: 0;
 }
 
-img {
+
+.fit {
+    max-width: 99%;
+    max-height: 99%;
     position: relative;
-    margin-top: 2vw;
     border-radius: 2vw;
+    margin-top: 1vw;
 }
 
 .btn {
@@ -38,14 +35,24 @@ img {
     height: 9vw;
     border-radius: 1vw;
 }
-
 .btn:hover {background-color: #27272c}
 
-.immg {
+
+#buttonpic {
     position: absolute;
     background: transparent;
     margin-top: -3.7vw;
     margin-left: -4vw;
     width: 8vw;
     height: 8vw;
+}
+
+#names {
+    text-align: left;
+    font-size: 2vh;
+}
+
+#nameContainer {
+    margin-left: 2vw;
+    margin-top: 2vw;
 }
