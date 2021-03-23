@@ -1,0 +1,9 @@
+body {
+    background-color: aqua;
+    text-align: center;
+  }
+
+.fit {
+    max-width: 99%;
+    max-height: 99%;
+}
