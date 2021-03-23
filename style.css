@@ -35,7 +35,10 @@ p {
     height: 9vw;
     border-radius: 1vw;
 }
-.btn:hover {background-color: #27272c}
+.btn:hover {
+    background-color: #27272c;
+    cursor: pointer;
+}
 
 
 #buttonpic {
