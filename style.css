@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Butterfly+Kids|Roboto');
 
+/* GENERAL */
 body {
     background-color: #4E4E56;
     text-align: center;
@@ -16,7 +17,7 @@ p {
     font-size: 1.3vw;
 }
 
-
+/*MAIN PICTURE*/
 .fit {
     max-width: 99%;
     max-height: 99%;
@@ -25,6 +26,8 @@ p {
     margin-top: 1vw;
 }
 
+
+/*DISCORD BUTTON*/
 .btn {
     position: absolute;
     background-color: transparent;
@@ -39,12 +42,9 @@ p {
     border: none;
 }
 .btn:hover {
-    background-color: #27272c;
     cursor: pointer;
     filter: brightness(120%);
 }
-
-
 #buttonpic {
     position: absolute;
     background: transparent;
@@ -52,9 +52,24 @@ p {
     margin-left: -4vw;
     width: 8vw;
     height: 8vw;
-    filter: brightness(100%);
+    filter: brightness(80%);
 }
 
+.hidden {
+    display: none;
+}
+.myDIV:hover + .hidden {
+    display: block;
+}
+#discordImageText {
+    position: absolute;
+    margin-top: -5vw;
+    margin-left: 11vw;
+    text-align: left;
+}
+
+
+/*NAMES*/
 #names {
     text-align: left;
     font-size: 2vh;
@@ -79,6 +94,8 @@ p {
     text-decoration: underline;
 }
   
+
+
 
 
 
