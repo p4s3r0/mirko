@@ -56,3 +56,17 @@ p {
     margin-left: 2vw;
     margin-top: 2vw;
 }
+
+.line {
+    margin-top: 50px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border:10px solid #FFF;
+    fill: tomato;
+    fill-opacity: 1;
+}
+
+.section {
+    text-align: center;
+    text-decoration: underline;
+}
