@@ -27,3 +27,11 @@ img {
     margin-top: 2vw;
     border-radius: 2vw;
 }
+
+button {
+    position: absolute;
+    top: 1vw;
+    left: 1vw;
+    padding: 3vw;
+    background-image: url("../disc.png") no-repeat scroll 0 0 transparent;
+}
