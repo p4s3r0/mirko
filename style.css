@@ -5,7 +5,6 @@ body {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
     color: white;
-
   }
 
 h1 {
@@ -42,8 +41,7 @@ p {
 .btn:hover {
     background-color: #27272c;
     cursor: pointer;
-    box-shadow: inset 5px 5px 12px #1f1f22,
-            inset -5px -5px 12px #7d7d8a;
+    filter: brightness(120%);
 }
 
 
@@ -54,6 +52,7 @@ p {
     margin-left: -4vw;
     width: 8vw;
     height: 8vw;
+    filter: brightness(100%);
 }
 
 #names {
@@ -79,3 +78,8 @@ p {
     text-align: center;
     text-decoration: underline;
 }
+  
+
+
+
+
