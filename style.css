@@ -28,7 +28,7 @@ p {
 
 
 /*DISCORD BUTTON*/
-.btn {
+.btnd {
     position: absolute;
     background-color: transparent;
     top: 1vw;
@@ -41,11 +41,11 @@ p {
             inset -5px -5px 12px #7d7d8a;
     border: none;
 }
-.btn:hover {
+.btnd:hover {
     cursor: pointer;
     filter: brightness(120%);
 }
-#buttonpic {
+#buttondpic {
     position: absolute;
     background: transparent;
     margin-top: -3.7vw;
@@ -92,6 +92,46 @@ p {
 .section {
     text-align: center;
     text-decoration: underline;
+}
+
+
+
+.btnm {
+    position: absolute;
+    background-color: transparent;
+    top: 1vw;
+    right: 1vw;
+    background-image:url('disc.png') 10px 10px no-repeat;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 1vw;
+    box-shadow: inset 5px 5px 12px #1f1f22,
+            inset -5px -5px 12px #7d7d8a;
+    border: none;
+}
+
+#musicBttn {
+    position: absolute;
+}
+.btnm:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+}
+#buttonmpic {
+    position: absolute;
+    background: transparent;
+    margin-top: -3.7vw;
+    margin-left: -4vw;
+    padding: 0.5vw;
+    width: 7vw;
+    height: 7vw;
+    filter: brightness(80%);
+}
+#musicImageText {
+    position: absolute;
+    margin-top: -5vw;
+    right: 11vw;
+    text-align: right;
 }
   
 
